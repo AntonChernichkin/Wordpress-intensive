@@ -349,3 +349,18 @@ h2.title {
     text-align: center;
     color: #4A4A4A;
 }
+
+footer {
+    min-height: 169px;
+    background: #1A1A1A;
+    padding-top: 57px;
+}
+
+footer .footer_links, footer a {
+    font-family: Roboto;    
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    color: #888888;
+}
