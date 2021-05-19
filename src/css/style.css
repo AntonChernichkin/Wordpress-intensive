@@ -288,6 +288,7 @@ h2.title {
 }
 
 .gift {
+    background: #EFEFEF;
     min-height: 631px;
     padding: 88px 0;
 }
@@ -307,4 +308,44 @@ h2.title {
     line-height: 43px;
     text-align: center;
     color: #252525;
+}
+
+.start_time {
+    min-height: 512px;
+    padding: 89px 0 52.5px 0;
+}
+
+.start_time .start_time_logo {
+    display: block;
+    margin: 0 auto;
+    width: 342px;
+    height: 201px;
+}
+
+.start_time .start_time_subheader {
+    margin-top: 36px;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.start_time .start_time_text {
+    margin-top: 30px;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+
+.start_time .start_time_desc {
+    margin-top: 24.5px;
+    font-family: Roboto;
+    font-size: 23px;
+    text-align: center;
+    color: #4A4A4A;
 }
