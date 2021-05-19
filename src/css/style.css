@@ -5,6 +5,7 @@
 }
 
 .container {
+    position: relative;
     width: 1140px;
     margin: 0 auto;
 }
@@ -138,7 +139,7 @@ h2.title {
 }
 
 .waiting {
-    height: 607px;
+    min-height: 607px;
     background:  #EFEFEF;
 }
 
@@ -172,13 +173,13 @@ h2.title {
 }
 
 .waiting .waiting_wrapper {
+    display: flex;
+    justify-content: space-between;
     margin-top: 45.5px;
 }
 
 .waiting .waiting_wrapper .waiting_item {
-    display: inline-block;
     width: 342px;
-    margin: 0 17px;
     vertical-align: top;
     text-align: center;
 }
@@ -196,4 +197,43 @@ h2.title {
     font-size: 15px;
     text-align: center;
     color: #4A4A4A; 
+}
+
+.optimization {
+    min-height: 502px;
+}
+
+.optimization .optimization_header {
+    margin-top: 108px;
+    margin-left: 391px;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+
+.optimization .optimization_text {
+    margin-left: 389px;
+    font-family: Roboto;    
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+}
+
+.optimization .optimization_text span {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+}
+
+.optimization .optimization_bg {
+    position: absolute;
+    width: 750px;
+    top: -45px;
+    left: -240px;
+    z-index: -1;
 }
