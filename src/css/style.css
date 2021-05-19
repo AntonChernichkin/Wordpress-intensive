@@ -143,7 +143,7 @@ h2.title {
     background:  #EFEFEF;
 }
 
-.waiting .waiting_title {
+.waiting .waiting_title, .finish .finish_title {
     padding-top: 88px;
     font-family: Roboto;
     font-style: normal;
@@ -154,7 +154,11 @@ h2.title {
     color: #252525;
 }
 
-.waiting .waiting_delimiter {
+.finish .finish_title {
+    color: #EFEFEF;
+}
+
+.waiting .waiting_delimiter, .finish .finish_delimiter {
     margin: 0 auto;
     margin-top: 8px;
     width: 220px;
@@ -236,4 +240,45 @@ h2.title {
     top: -45px;
     left: -240px;
     z-index: -1;
+}
+
+.finish {
+    min-height: 447px;
+    background: url(../img/bg/finish_bg.jpg) center center/cover no-repeat;
+    padding: 0 0 68.5px 0;
+
+}
+
+.finish .finish_wrapper {
+    margin-top: 39px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.finish .finish_wrapper .finish_item .finish_circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 118px;
+    height: 118px;
+    left: 670px;
+    border-radius: 100%;
+    background: #B4E2FF;
+}
+
+.finish .finish_wrapper .finish_item .finish_circle .finish_logo_img {
+    width: 67px;
+}
+
+.finish .finish_wrapper .finish_item .finish_desc {
+    margin-top: 24.5px;
+    width: 234px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #EFEFEF;
 }
